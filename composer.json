@@ -1,0 +1,15 @@
+{
+    "name": "lorenzog3m/farmadati-soap",
+    "description": "Package generated from /home/lorenzo/Documenti/Farmadati/php_stormProject/wsdl/definition.wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LorenzoG3M\\FarmaDatiSoap\\": "./src/"
+        }
+    }
+}
